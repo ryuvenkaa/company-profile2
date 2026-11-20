@@ -54,5 +54,17 @@ export interface Database {
         Update: Partial<Activity>;
       };
     };
+    Views: {
+      [_ in never]: never;
+    };
+    Functions: {
+      [_ in never]: never;
+    };
+    Enums: {
+      user_role: UserRole;
+    };
+    CompositeTypes: {
+      [_ in never]: never;
+    };
   };
 }
